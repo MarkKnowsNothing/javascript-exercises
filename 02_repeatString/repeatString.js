@@ -6,12 +6,12 @@ const repeatString = function repeatString(string, num) {
     };
 
     if (num === 0) {
-        return ""
+        return "";
     } else if (num < 0) {
-        return "ERROR"
+        return "ERROR";
     } else {
-        return newString
-    }
+        return newString;
+    };
 };
 
 // Do not edit below this line
